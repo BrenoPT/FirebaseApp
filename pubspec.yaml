@@ -18,9 +18,13 @@ dependencies:
   geoflutterfire_plus: ^0.0.34
   http: ^1.6.0
   geolocator: any
+  flutter_localizations:
+    sdk: flutter
+  intl: any
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
 flutter:
   uses-material-design: true
+  generate: true
